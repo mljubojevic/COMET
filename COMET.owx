@@ -1,0 +1,1435 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/ljubojev/ontologies/2024/5/untitled-ontology-24"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/ljubojev/ontologies/2024/5/untitled-ontology-24">
+    <Prefix name="" IRI="http://www.semanticweb.org/ljubojev/ontologies/2024/5/untitled-ontology-24/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Agency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AgencyBrandMediaCosts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AgencyCommission"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AgencyFee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Anniversary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BillableBrandMediaCosts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BillableFinalCostAllInclusive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BillableFinalCostExc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BillableMediaCosts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BillableProductionCostsAndTaxes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BillableSharePaidByBrand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BillableTechnicalCosts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BookingDeadline"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boutique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Brand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BrandFinalCostAllInclusive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BrandFinalCostExc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BrandMediaPCAndTaxes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Budget"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Buyer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BuyerType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CalendarYear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Campaign"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CampaignName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Click-throughRate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clicks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ConversionRate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Conversions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CostPerAcquisition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CostPerClick"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CostPerConversion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CountryOfInsertion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CreativeReference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Currency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CustomerLifetimeValue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DetailedPosition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DetailedPositionYearN-1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Discount"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EndDate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Engagement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Events"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExchangeRate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExternalRetail"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExternallBrandProductionCostsAndTaxes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExternallProductionCost"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExternallSharePaidByBrand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FathersDay"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Feedback"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FeedbackAndPerformance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FinalCostAllInclusiveSharePaidByBrand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Format"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FreeAddedValue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FreeCompensation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Frequency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GlobalBrand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Holidays"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Impressions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InHouseProductionCost"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InHouseProductionCostProductionCostsAndTaxes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InHouseProductionCostSharePaidByBrand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InsertionStatus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InsertionType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InternalRetail"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LocalBrand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaterialDeliveryDeadline"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Media"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MediaAgencySharePaidByBrand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MediaCosts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MediaDetails"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MediaDetailsAnniversary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MediaName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MediaNetSharePaidByBrand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MothersDay"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NegotiatedGrossCost"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NetBrandMediaCosts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NetNetCost"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NetPromoterScore"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NoSpecificSalesNetwork"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OlympicGames"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherTechnicalCostBrandTechnicalCosts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherTechnicalCostSharePaidByBrand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherTechnicalCosts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PCAndTaxes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Paid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PartnerFinalCostAllInclusive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Performance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PlanOwner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PositionEvolution"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PositionYearN-1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProductLine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Project"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RatecardCost"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reach"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reserve"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ReturnOnAdSpend"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ReturnOnInvestment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SalesNetwork"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SalesType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Savings"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SearchImpressionShare"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SocialMediaShares"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpecialIssue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpecialOperation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StartDate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Submedia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SupervisingCompany"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Taxes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TaxesProductionCosts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TaxesSharePaidByBrand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TechnicalSpecifications"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Timing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TotalBrandTechnicalCosts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TotalProductionCostBrandProductionCostsAndTaxes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TotalTechnicalCost"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vehicle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VehicleNetwork"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VisitsPerChannel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wholesale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wholesaler"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Format/Size"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Position/Placement"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="owl:COMET"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Agency"/>
+        <Class IRI="#BuyerType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AgencyBrandMediaCosts"/>
+        <Class IRI="#AgencyFee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AgencyCommission"/>
+        <Class IRI="#BillableMediaCosts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AgencyFee"/>
+        <Class IRI="#BillableMediaCosts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anniversary"/>
+        <Class IRI="#MediaName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BillableBrandMediaCosts"/>
+        <Class IRI="#BillableFinalCostAllInclusive"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BillableFinalCostAllInclusive"/>
+        <Class IRI="#MediaCosts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BillableFinalCostExc"/>
+        <Class IRI="#BillableMediaCosts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BillableMediaCosts"/>
+        <Class IRI="#MediaCosts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BillableProductionCostsAndTaxes"/>
+        <Class IRI="#MediaCosts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BillableSharePaidByBrand"/>
+        <Class IRI="#BillableFinalCostAllInclusive"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BillableTechnicalCosts"/>
+        <Class IRI="#MediaCosts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BookingDeadline"/>
+        <Class IRI="#Timing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boutique"/>
+        <Class IRI="#SalesNetwork"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brand"/>
+        <Class abbreviatedIRI="owl:COMET"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BrandFinalCostAllInclusive"/>
+        <Class IRI="#MediaCosts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BrandFinalCostExc"/>
+        <Class IRI="#BillableFinalCostExc"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BrandMediaPCAndTaxes"/>
+        <Class IRI="#PCAndTaxes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Budget"/>
+        <Class IRI="#MediaCosts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Buyer"/>
+        <Class abbreviatedIRI="owl:COMET"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BuyerType"/>
+        <Class IRI="#Buyer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CalendarYear"/>
+        <Class IRI="#Timing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Campaign"/>
+        <Class IRI="#Brand"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CampaignName"/>
+        <Class IRI="#MediaDetails"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Click-throughRate"/>
+        <Class IRI="#Performance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clicks"/>
+        <Class IRI="#Feedback"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ConversionRate"/>
+        <Class IRI="#Feedback"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Conversions"/>
+        <Class IRI="#Feedback"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CostPerAcquisition"/>
+        <Class IRI="#Performance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CostPerClick"/>
+        <Class IRI="#Performance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CostPerConversion"/>
+        <Class IRI="#Performance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CountryOfInsertion"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CreativeReference"/>
+        <Class IRI="#Brand"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Currency"/>
+        <Class IRI="#MediaCosts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CustomerLifetimeValue"/>
+        <Class IRI="#Performance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DetailedPosition"/>
+        <Class IRI="#Position/Placement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DetailedPositionYearN-1"/>
+        <Class IRI="#Position/Placement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Discount"/>
+        <Class IRI="#BillableMediaCosts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EndDate"/>
+        <Class IRI="#Events"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EndDate"/>
+        <Class IRI="#Timing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Engagement"/>
+        <Class IRI="#Feedback"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Events"/>
+        <Class IRI="#Timing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExchangeRate"/>
+        <Class IRI="#Currency"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExternalRetail"/>
+        <Class IRI="#SalesType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExternallBrandProductionCostsAndTaxes"/>
+        <Class IRI="#ExternallProductionCost"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExternallProductionCost"/>
+        <Class IRI="#BillableProductionCostsAndTaxes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExternallSharePaidByBrand"/>
+        <Class IRI="#ExternallProductionCost"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FathersDay"/>
+        <Class IRI="#Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Feedback"/>
+        <Class IRI="#FeedbackAndPerformance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FeedbackAndPerformance"/>
+        <Class abbreviatedIRI="owl:COMET"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FinalCostAllInclusiveSharePaidByBrand"/>
+        <Class IRI="#MediaCosts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Format"/>
+        <Class IRI="#MediaName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FreeAddedValue"/>
+        <Class IRI="#InsertionType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FreeCompensation"/>
+        <Class IRI="#InsertionType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Frequency"/>
+        <Class IRI="#Feedback"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GlobalBrand"/>
+        <Class IRI="#Brand"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Holidays"/>
+        <Class IRI="#Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Impressions"/>
+        <Class IRI="#Feedback"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InHouseProductionCost"/>
+        <Class IRI="#BillableProductionCostsAndTaxes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InHouseProductionCostProductionCostsAndTaxes"/>
+        <Class IRI="#InHouseProductionCost"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InHouseProductionCostSharePaidByBrand"/>
+        <Class IRI="#InHouseProductionCost"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InsertionStatus"/>
+        <Class IRI="#MediaDetails"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InsertionType"/>
+        <Class IRI="#MediaCosts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InternalRetail"/>
+        <Class IRI="#SalesType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LocalBrand"/>
+        <Class IRI="#Brand"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Location"/>
+        <Class IRI="#Media"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaterialDeliveryDeadline"/>
+        <Class IRI="#Timing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Media"/>
+        <Class abbreviatedIRI="owl:COMET"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MediaAgencySharePaidByBrand"/>
+        <Class IRI="#AgencyFee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MediaCosts"/>
+        <Class IRI="#Media"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MediaDetails"/>
+        <Class IRI="#Media"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MediaDetailsAnniversary"/>
+        <Class IRI="#MediaDetails"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MediaName"/>
+        <Class IRI="#MediaDetails"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MediaNetSharePaidByBrand"/>
+        <Class IRI="#NetNetCost"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MothersDay"/>
+        <Class IRI="#Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NegotiatedGrossCost"/>
+        <Class IRI="#BillableMediaCosts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NetBrandMediaCosts"/>
+        <Class IRI="#NetNetCost"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NetNetCost"/>
+        <Class IRI="#BillableMediaCosts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NetPromoterScore"/>
+        <Class IRI="#Feedback"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NoSpecificSalesNetwork"/>
+        <Class IRI="#SalesType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OlympicGames"/>
+        <Class IRI="#Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherTechnicalCostBrandTechnicalCosts"/>
+        <Class IRI="#OtherTechnicalCosts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherTechnicalCostSharePaidByBrand"/>
+        <Class IRI="#OtherTechnicalCosts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherTechnicalCosts"/>
+        <Class IRI="#BillableTechnicalCosts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PCAndTaxes"/>
+        <Class IRI="#BillableMediaCosts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paid"/>
+        <Class IRI="#InsertionType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PartnerFinalCostAllInclusive"/>
+        <Class IRI="#MediaCosts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Performance"/>
+        <Class IRI="#FeedbackAndPerformance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PlanOwner"/>
+        <Class IRI="#Buyer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PositionEvolution"/>
+        <Class IRI="#Position/Placement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PositionYearN-1"/>
+        <Class IRI="#Position/Placement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Product"/>
+        <Class IRI="#ProductLine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProductLine"/>
+        <Class IRI="#Brand"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Project"/>
+        <Class IRI="#Brand"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RatecardCost"/>
+        <Class IRI="#BillableMediaCosts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reach"/>
+        <Class IRI="#Feedback"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reserve"/>
+        <Class IRI="#MediaCosts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ReturnOnAdSpend"/>
+        <Class IRI="#Performance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ReturnOnInvestment"/>
+        <Class IRI="#Performance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SalesNetwork"/>
+        <Class IRI="#Buyer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SalesType"/>
+        <Class IRI="#SalesNetwork"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Savings"/>
+        <Class IRI="#MediaCosts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SearchImpressionShare"/>
+        <Class IRI="#Feedback"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SocialMediaShares"/>
+        <Class IRI="#Feedback"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecialIssue"/>
+        <Class IRI="#MediaDetails"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecialOperation"/>
+        <Class IRI="#MediaDetails"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StartDate"/>
+        <Class IRI="#Events"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StartDate"/>
+        <Class IRI="#Timing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Submedia"/>
+        <Class IRI="#Media"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SupervisingCompany"/>
+        <Class IRI="#Brand"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Taxes"/>
+        <Class IRI="#BillableProductionCostsAndTaxes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TaxesProductionCosts"/>
+        <Class IRI="#Taxes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TaxesSharePaidByBrand"/>
+        <Class IRI="#Taxes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TechnicalSpecifications"/>
+        <Class IRI="#MediaDetails"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Timing"/>
+        <Class IRI="#Media"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TotalBrandTechnicalCosts"/>
+        <Class IRI="#TotalTechnicalCost"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TotalProductionCostBrandProductionCostsAndTaxes"/>
+        <Class IRI="#BillableProductionCostsAndTaxes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TotalTechnicalCost"/>
+        <Class IRI="#BillableTechnicalCosts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Type"/>
+        <Class IRI="#Events"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vehicle"/>
+        <Class IRI="#Submedia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VehicleNetwork"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VisitsPerChannel"/>
+        <Class IRI="#Feedback"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wholesale"/>
+        <Class IRI="#SalesType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wholesaler"/>
+        <Class IRI="#SalesNetwork"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Format/Size"/>
+        <Class IRI="#Position/Placement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Position/Placement"/>
+        <Class IRI="#MediaDetails"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#AgencyBrandMediaCosts"/>
+        <Class IRI="#MediaAgencySharePaidByBrand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#AgencyCommission"/>
+        <Class IRI="#AgencyFee"/>
+        <Class IRI="#BillableFinalCostExc"/>
+        <Class IRI="#Discount"/>
+        <Class IRI="#NegotiatedGrossCost"/>
+        <Class IRI="#NetNetCost"/>
+        <Class IRI="#PCAndTaxes"/>
+        <Class IRI="#RatecardCost"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Anniversary"/>
+        <Class IRI="#Format"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BillableFinalCostAllInclusive"/>
+        <Class IRI="#BillableMediaCosts"/>
+        <Class IRI="#BillableProductionCostsAndTaxes"/>
+        <Class IRI="#BillableTechnicalCosts"/>
+        <Class IRI="#BrandFinalCostAllInclusive"/>
+        <Class IRI="#Budget"/>
+        <Class IRI="#Currency"/>
+        <Class IRI="#FinalCostAllInclusiveSharePaidByBrand"/>
+        <Class IRI="#InsertionType"/>
+        <Class IRI="#PartnerFinalCostAllInclusive"/>
+        <Class IRI="#Reserve"/>
+        <Class IRI="#Savings"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BillableFinalCostAllInclusive"/>
+        <Class IRI="#BillableMediaCosts"/>
+        <Class IRI="#BillableProductionCostsAndTaxes"/>
+        <Class IRI="#BillableTechnicalCosts"/>
+        <Class IRI="#BrandFinalCostAllInclusive"/>
+        <Class IRI="#Currency"/>
+        <Class IRI="#FinalCostAllInclusiveSharePaidByBrand"/>
+        <Class IRI="#InsertionType"/>
+        <Class IRI="#PartnerFinalCostAllInclusive"/>
+        <Class IRI="#Reserve"/>
+        <Class IRI="#Savings"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BookingDeadline"/>
+        <Class IRI="#CalendarYear"/>
+        <Class IRI="#EndDate"/>
+        <Class IRI="#Events"/>
+        <Class IRI="#MaterialDeliveryDeadline"/>
+        <Class IRI="#StartDate"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Boutique"/>
+        <Class IRI="#SalesType"/>
+        <Class IRI="#Wholesaler"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Brand"/>
+        <Class IRI="#Buyer"/>
+        <Class IRI="#FeedbackAndPerformance"/>
+        <Class IRI="#Media"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BuyerType"/>
+        <Class IRI="#PlanOwner"/>
+        <Class IRI="#SalesNetwork"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Campaign"/>
+        <Class IRI="#CreativeReference"/>
+        <Class IRI="#LocalBrand"/>
+        <Class IRI="#ProductLine"/>
+        <Class IRI="#Project"/>
+        <Class IRI="#SupervisingCompany"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CampaignName"/>
+        <Class IRI="#InsertionStatus"/>
+        <Class IRI="#MediaDetailsAnniversary"/>
+        <Class IRI="#MediaName"/>
+        <Class IRI="#SpecialIssue"/>
+        <Class IRI="#Vehicle"/>
+        <Class IRI="#Position/Placement"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CountryOfInsertion"/>
+        <Class IRI="#VehicleNetwork"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DetailedPosition"/>
+        <Class IRI="#DetailedPositionYearN-1"/>
+        <Class IRI="#PositionEvolution"/>
+        <Class IRI="#PositionYearN-1"/>
+        <Class IRI="#Format/Size"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EndDate"/>
+        <Class IRI="#StartDate"/>
+        <Class IRI="#Type"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ExternalRetail"/>
+        <Class IRI="#InternalRetail"/>
+        <Class IRI="#NoSpecificSalesNetwork"/>
+        <Class IRI="#Wholesale"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ExternallBrandProductionCostsAndTaxes"/>
+        <Class IRI="#ExternallSharePaidByBrand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ExternallProductionCost"/>
+        <Class IRI="#InHouseProductionCost"/>
+        <Class IRI="#Taxes"/>
+        <Class IRI="#TotalProductionCostBrandProductionCostsAndTaxes"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#FathersDay"/>
+        <Class IRI="#Holidays"/>
+        <Class IRI="#MothersDay"/>
+        <Class IRI="#OlympicGames"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#FreeAddedValue"/>
+        <Class IRI="#FreeCompensation"/>
+        <Class IRI="#Paid"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#InHouseProductionCostProductionCostsAndTaxes"/>
+        <Class IRI="#InHouseProductionCostSharePaidByBrand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Location"/>
+        <Class IRI="#MediaCosts"/>
+        <Class IRI="#MediaDetails"/>
+        <Class IRI="#Submedia"/>
+        <Class IRI="#Timing"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MediaNetSharePaidByBrand"/>
+        <Class IRI="#NetBrandMediaCosts"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OtherTechnicalCostBrandTechnicalCosts"/>
+        <Class IRI="#OtherTechnicalCostSharePaidByBrand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OtherTechnicalCosts"/>
+        <Class IRI="#TotalTechnicalCost"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#TaxesProductionCosts"/>
+        <Class IRI="#TaxesSharePaidByBrand"/>
+    </DisjointClasses>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Agency</IRI>
+        <Literal>Name of the agency, in case there is one contracted to create a media plan.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AgencyBrandMediaCosts</IRI>
+        <Literal>&quot;Agency Fee&quot; for &quot;Brand Media Costs&quot;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AgencyFee</IRI>
+        <Literal>&quot;Agency Fee&quot; for &quot;Billable Media Costs&quot;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BillableBrandMediaCosts</IRI>
+        <Literal>&quot;Billable Final Cost All Inclusive&quot; for &quot;Brand Media Costs&quot;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BillableFinalCostAllInclusive</IRI>
+        <Literal>Billable final cost including: &quot;Billable Media Costs&quot;, &quot;Billable Technical Costs&quot; and &quot;Billable Production Costs with Taxes&quot;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BillableFinalCostExc</IRI>
+        <Literal>&quot;Billable Final Cost&quot; for &quot;Billable Media Costs&quot;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BillableSharePaidByBrand</IRI>
+        <Literal>&quot;Billable Final Cost All Inclusive&quot; for &quot;Share Paid By Brand&quot; - this share is usually 100%.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BookingDeadline</IRI>
+        <Literal>Deadline for booking the ad campaign in the specified media vehicle.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Boutique</IRI>
+        <Literal>Sales network is a boutique, sales type should be a retail - external or internal.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Brand</IRI>
+        <Literal>The one who needs the advertising.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BrandFinalCostAllInclusive</IRI>
+        <Literal>Overall costs for brand.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BrandFinalCostExc</IRI>
+        <Literal>&quot;Billable Final Cost&quot; for &quot;Brand Media Costs&quot;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BrandMediaPCAndTaxes</IRI>
+        <Literal>&quot;PC and Taxes&quot; for &quot;Brand Media Costs&quot;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Budget</IRI>
+        <Literal>Budget type according to a brand. Can be: local, national, global.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Buyer</IRI>
+        <Literal>The one who ceates the media plan.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BuyerType</IRI>
+        <Literal>Type of the buyer, whether it is in-brand or third party agency.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Campaign</IRI>
+        <Literal>Identifier of campaign.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CampaignName</IRI>
+        <Literal>Ad campaign identifier.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Click-throughRate</IRI>
+        <Literal>CTR is the percentage number of clicks that the ad receives, divided by the number of times the ad is shown.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ConversionRate</IRI>
+        <Literal>A conversion rate is a measure of how many people take a desired action, such as clicking on an advertisement.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CostPerAcquisition</IRI>
+        <Literal>Value that is averaged out over the course of a campaign by taking the total amount invested budget, over the total number of conversions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CostPerClick</IRI>
+        <Literal>Value obtained by dividing overall ad price with the clicks. Can be obtained by different time periods: day, week, month, year, etc.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CostPerConversion</IRI>
+        <Literal>Value obtaining by dividing the monthly cost of a particular source of leads by the number of conversions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CountryOfInsertion</IRI>
+        <Literal>Location of the ad.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CreativeReference</IRI>
+        <Literal>Type of creative project.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CustomerLifetimeValue</IRI>
+        <Literal>A total monetary value a paying customer can bring in their entire life cycle with a brand. It is based on subjective calculations.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DetailedPosition</IRI>
+        <Literal>Detailed position of the ad in the specified vehicle.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DetailedPositionYearN-1</IRI>
+        <Literal>Previous detailed position of the ad in the specified vehicle. Used for later statistical purposes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EndDate</IRI>
+        <Literal>Date when the campaign is planned to stop for the product in the specified vehicle.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Engagement</IRI>
+        <Literal>A percentage rate showing how consumers interact directly with a brand through actions such as clicks, likes, saves, comments, and shares.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Events</IRI>
+        <Literal>Information about various events that may impact the ad campaign.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ExternallBrandProductionCostsAndTaxes</IRI>
+        <Literal>&quot;External Production Cost&quot; for &quot;Brand Production Costs &amp; Taxes&quot;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ExternallProductionCost</IRI>
+        <Literal>&quot;External Production Cost&quot; for &quot;Billable Production Costs And Taxes&quot;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ExternallSharePaidByBrand</IRI>
+        <Literal>&quot;External Production Cost&quot; for &quot;Share Paid By Brand&quot;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FeedbackAndPerformance</IRI>
+        <Literal>Statistical information about the overall effectiveness of the advertising campaign.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Format</IRI>
+        <Literal>Format of the media channel (TV video, online video, radio, etc.)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Frequency</IRI>
+        <Literal>Frequency is the number of times an individual is exposed to a specific advert during an advertising campaign.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Impressions</IRI>
+        <Literal>The total number of times ad content was displayed, whether it was clicked on or not. Each display counts as a single impression.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#InHouseProductionCost</IRI>
+        <Literal>&quot;In House Production Cost&quot; for &quot;Billable Production Costs And Taxes&quot;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#InHouseProductionCostProductionCostsAndTaxes</IRI>
+        <Literal>&quot;In House Production Cost&quot; for &quot;Brand Production Costs &amp; Taxes&quot;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#InHouseProductionCostSharePaidByBrand</IRI>
+        <Literal>&quot;In House Production Cost&quot; for &quot;Share Paid By Brand&quot;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#InsertionStatus</IRI>
+        <Literal>Current status of the ad campaign.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MediaAgencySharePaidByBrand</IRI>
+        <Literal>&quot;Agency Fee&quot; for &quot;Share Paid By Brand&quot;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MediaCosts</IRI>
+        <Literal>Budget for ad campaign.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MediaDetails</IRI>
+        <Literal>Includes specifics about the media itself, like its name, format, and anniversary.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MediaNetSharePaidByBrand</IRI>
+        <Literal>&quot;Net Net Cost&quot; for &quot;Share Paid By Brand&quot;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NetBrandMediaCosts</IRI>
+        <Literal>&quot;Net Net Cost&quot; for &quot;Brand Media Costs&quot;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NetNetCost</IRI>
+        <Literal>&quot;Net Net Cost&quot; for &quot;Billable Media Costs&quot;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NetPromoterScore</IRI>
+        <Literal>The level of customer satisfaction with the business.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OtherTechnicalCostBrandTechnicalCosts</IRI>
+        <Literal>&quot;Other Technical Cost&quot; for &quot;Brand Technical Costs&quot;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OtherTechnicalCostSharePaidByBrand</IRI>
+        <Literal>&quot;Other Technical Cost&quot; for &quot;Share Paid By Brand&quot;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OtherTechnicalCosts</IRI>
+        <Literal>&quot;Other Technical Cost&quot; for &quot;Billable Technical Costs&quot;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PCAndTaxes</IRI>
+        <Literal>&quot;PC and Taxes&quot; for &quot;Billable Media Costs&quot;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PositionYearN-1</IRI>
+        <Literal>Previous position of the ad in the specified vehicle. Used for later statistical purposes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Project</IRI>
+        <Literal>Type of the business vertical related to the advertising campaign.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Reach</IRI>
+        <Literal>Size of the audience that has seen the ad or campaign content.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ReturnOnAdSpend</IRI>
+        <Literal>Value obtained by dividing revenu with advertising spend.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ReturnOnInvestment</IRI>
+        <Literal>The profit earned from investing in marketing.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SalesNetwork</IRI>
+        <Literal>Describes how the product is sold: where/to whom is it sold, and what type of selling is in question.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SearchImpressionShare</IRI>
+        <Literal>Frequency at which ad campaign shows up in terms of percentage.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#StartDate</IRI>
+        <Literal>Date when the campaign is planned to start for the product in the specified vehicle.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Submedia</IRI>
+        <Literal>Describes specific media type. If media is “Online”, submedia might be “Video”, “Website” or “Social Media”.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SupervisingCompany</IRI>
+        <Literal>Company or brand responsible for overseeing the campaign.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Taxes</IRI>
+        <Literal>&quot;Taxes&quot; for billable production costs.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TaxesProductionCosts</IRI>
+        <Literal>&quot;Taxes&quot; for &quot;Brand Production Costs &amp; Taxes&quot;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TaxesSharePaidByBrand</IRI>
+        <Literal>&quot;Taxes&quot; for &quot;Share Paid By Brand&quot;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Timing</IRI>
+        <Literal>Subclass that records calendar dates, booking deadlines, and event types relevant to the campaign.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TotalBrandTechnicalCosts</IRI>
+        <Literal>&quot;Total Technical Cost&quot; for &quot;Brand Technical Costs&quot;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TotalProductionCostBrandProductionCostsAndTaxes</IRI>
+        <Literal>&quot;Total Production Cost&quot; for &quot;Billable Production Costs And Taxes&quot;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TotalTechnicalCost</IRI>
+        <Literal>&quot;Total Technical Cost&quot; for &quot;Billable Technical Costs&quot;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Vehicle</IRI>
+        <Literal>Exact vehicle where the ad takes place, such as specific website if media in question is related to online advertising, or specific TV station if media is related to TV advertising.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#VehicleNetwork</IRI>
+        <Literal>Describes the vehicle network where ad takes place.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#VisitsPerChannel</IRI>
+        <Literal>Number of visits per type of advertising channel/vehicle.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Wholesaler</IRI>
+        <Literal>Sales network is &quot;wholesaler&quot;, sales type should be wholesale.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Format/Size</IRI>
+        <Literal>Format of the ad taking a place (magazine cover, banner, etc.)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Position/Placement</IRI>
+        <Literal>Position of the ad in the specified vehicle.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
